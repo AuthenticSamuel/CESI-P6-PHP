@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background-color: #212224;
+}
+
+body #emoji-display-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body #emoji-display-container #emoji-display {
+  margin: 3rem 20%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (5rem)[16];
+      grid-template-columns: repeat(16, 5rem);
+  -ms-grid-rows: (5rem)[16];
+      grid-template-rows: repeat(16, 5rem);
+  gap: 1rem;
+  font-size: 2rem;
+}
+
+body #emoji-display-container #emoji-display .emoji {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #393b3f;
+  border-radius: 1rem;
+}
+/*# sourceMappingURL=styles.css.map */

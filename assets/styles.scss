@@ -1,0 +1,27 @@
+body {
+	margin: 0;
+	background-color: #212224;
+
+	#emoji-display-container {
+		display: flex;
+		justify-content: center;
+
+		#emoji-display {
+			margin: 3rem 20%;
+			display: grid;
+			grid-template-columns: repeat(16, 5rem);
+			grid-template-rows: repeat(16, 5rem);
+			gap: 1rem;
+			font-size: 2rem;
+
+			.emoji {
+				margin: 0;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: lighten(#212224, 10%);
+				border-radius: 1rem;
+			}
+		}
+	}
+}
